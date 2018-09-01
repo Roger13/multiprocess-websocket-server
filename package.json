@@ -1,0 +1,24 @@
+{
+  "name": "multiprocess-websocket-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "/lib/index.js",
+  "scripts": {
+    "start": "nodemon lib/index.js --exec babel-node",
+    "build": "babel lib -d dist",
+    "serve": "node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rogerio Bernardo",
+  "license": "ISC",
+  "dependencies": {
+    "farmhash": "^2.1.0",
+    "ws": "^6.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "nodemon": "^1.18.3"
+  }
+}
