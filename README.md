@@ -1,7 +1,5 @@
-# multiprocess-websocket-server
-A minimalistic multiprocess websocket server using 'ws' websocket library, so you don't have to ;)  
-* Uses farmhash for distributing connections over processes based on ip address
-* Node.js native http and net modules for listening to http and tcp connections
+# multiprocess-websocket-client
+A minimalistic multiprocess websocket client using 'ws' websocket library 
 * Node.js native cluster module for spawning processes
-* Server echoes back incoming messages
+* Client echoes back incoming messages
 * Nodemon and babel as development dependencies
